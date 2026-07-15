@@ -40,27 +40,27 @@ export const SEAT_AVATARS: Record<number, { icon: React.ReactNode; bg: string; b
 // 16:9 Landscape Layout positions (Clockwise, pushed outward to keep the felt extremely clean)
 export const LANDSCAPE_SEATS: Record<number, { x: number; y: number; btnX: number; btnY: number; posName: PositionName }> = {
   1: { x: 27, y: 89, btnX: 37, btnY: 72, posName: 'SB' },
-  2: { x: 73, y: 89, btnX: 63, btnY: 72, posName: 'BB' },
-  3: { x: 92, y: 69, btnX: 75, btnY: 60, posName: 'UTG' },
-  4: { x: 92, y: 31, btnX: 75, btnY: 40, posName: 'UTG+1' },
-  5: { x: 73, y: 11, btnX: 63, btnY: 28, posName: 'UTG+2' },
-  6: { x: 50, y: 8, btnX: 50, btnY: 26, posName: 'LJ' },
-  7: { x: 27, y: 11, btnX: 37, btnY: 28, posName: 'HJ' },
-  8: { x: 8, y: 31, btnX: 25, btnY: 40, posName: 'CO' },
-  9: { x: 8, y: 69, btnX: 25, btnY: 60, posName: 'BTN' },
+  2: { x: 8, y: 69, btnX: 25, btnY: 60, posName: 'BB' },
+  3: { x: 8, y: 31, btnX: 25, btnY: 40, posName: 'UTG' },
+  4: { x: 27, y: 11, btnX: 37, btnY: 28, posName: 'UTG+1' },
+  5: { x: 50, y: 8, btnX: 50, btnY: 26, posName: 'UTG+2' },
+  6: { x: 73, y: 11, btnX: 63, btnY: 28, posName: 'LJ' },
+  7: { x: 92, y: 31, btnX: 75, btnY: 40, posName: 'HJ' },
+  8: { x: 92, y: 69, btnX: 75, btnY: 60, posName: 'CO' },
+  9: { x: 73, y: 89, btnX: 63, btnY: 72, posName: 'BTN' },
 };
 
 // 9:16 Portrait Layout positions (Clockwise, pushed outward to clear the center logo and card areas)
 export const PORTRAIT_SEATS: Record<number, { x: number; y: number; btnX: number; btnY: number; posName: PositionName }> = {
   1: { x: 21, y: 91, btnX: 33, btnY: 74, posName: 'SB' },
-  2: { x: 79, y: 91, btnX: 67, btnY: 74, posName: 'BB' },
-  3: { x: 93, y: 72, btnX: 76, btnY: 63, posName: 'UTG' },
-  4: { x: 93, y: 44, btnX: 76, btnY: 37, posName: 'UTG+1' },
-  5: { x: 79, y: 9, btnX: 67, btnY: 29, posName: 'UTG+2' },
-  6: { x: 50, y: 6, btnX: 50, btnY: 25, posName: 'LJ' },
-  7: { x: 21, y: 9, btnX: 33, btnY: 29, posName: 'HJ' },
-  8: { x: 7, y: 44, btnX: 24, btnY: 37, posName: 'CO' },
-  9: { x: 7, y: 72, btnX: 24, btnY: 63, posName: 'BTN' },
+  2: { x: 7, y: 72, btnX: 24, btnY: 63, posName: 'BB' },
+  3: { x: 7, y: 44, btnX: 24, btnY: 37, posName: 'UTG' },
+  4: { x: 21, y: 9, btnX: 33, btnY: 29, posName: 'UTG+1' },
+  5: { x: 50, y: 6, btnX: 50, btnY: 25, posName: 'UTG+2' },
+  6: { x: 79, y: 9, btnX: 67, btnY: 29, posName: 'LJ' },
+  7: { x: 93, y: 44, btnX: 76, btnY: 37, posName: 'HJ' },
+  8: { x: 93, y: 72, btnX: 76, btnY: 63, posName: 'CO' },
+  9: { x: 79, y: 91, btnX: 67, btnY: 74, posName: 'BTN' },
 };
 
 const actionStyles: Record<PlayerActionType, { text: string; bg: string; border: string; sound?: string }> = {
